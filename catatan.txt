@@ -1,0 +1,10 @@
+Dependencies :
+
+1. babel 		-> Mengkonversi syntax js ke versi lama agar dikenali browser lama
+2. css-loader		-> Membundle file css dari source ke distribution
+3. html-webpack-plugin	-> Menggenerate otomatis file index.html yang sudah terdapat link css dan js
+4. style-loader		-> Menerapkan hasil style ke DOM
+5. webpack-merge	-> Menggabungkan file konfigurasi
+6. MiniCssExtrackPlugin	-> Memisahkan hasil bundling css secara terpisah dari js (default tergabung)
+7. Webpack-dev-server	-> Development server dari webpack
+8. Split-chunk-plugin	-> Untuk memisahkan modul untuk dipakai Bersama agar tidak diload berulang

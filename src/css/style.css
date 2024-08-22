@@ -1,0 +1,10 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body{
+    background-color: lightblue;
+}
+
+.logo{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
